@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "java",
+      "args": [
+        "-Dspring.ai.mcp.server.stdio=true",
+        "-Dspring.main.web-application-type=none",
+        "-Dlogging.pattern.console=",
+        "-jar",
+        "/Users/sasha/mcp-github/target/mcp-github-0.0.1-SNAPSHOT.jar"
+      ]
+    }
+  }
+}
